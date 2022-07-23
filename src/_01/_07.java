@@ -15,6 +15,7 @@ public class _07 {
 		}
 		*/
 		
+		//풀이 2
 		String answer = "NO";
 		String tmp = new StringBuilder(str).reverse().toString();
 		if(str.equalsIgnoreCase(tmp)) answer="YES";
