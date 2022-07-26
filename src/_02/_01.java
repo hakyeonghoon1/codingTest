@@ -9,12 +9,10 @@ public class _01 {
 		
 		ArrayList<Integer> answer= new ArrayList<>();
 		
-		/* 내가 푼 풀이
 		answer.add(arr[0]);
 		for(int i=1;i<arr.length;i++) {
 			if(arr[i-1]<arr[i]) answer.add(arr[i]);
 		}
-		*/
 		return answer;
 		
 	}
