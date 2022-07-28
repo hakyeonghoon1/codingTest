@@ -7,34 +7,20 @@ public class _06 {
 	public int solution(int n, int m, int[] arr) {
 		
 		int answer = 0;
-		int sum=0,lt=0;
-		for(int rt=0; rt<n;rt++) {
-			sum +=arr[rt];
-			if(sum==m) answer++;
-			while(sum>=m) {
-				sum-=arr[lt++];
-				if(sum==m) answer++;
+		int lt=0;
+		int cnt=0;
+		for(int rt=0;rt<n;rt++) {
+			
+			if(arr[rt]==0) cnt++;
+			while(cnt>m) {
+				if(arr[lt]==0) cnt--;
+				lt++;
 			}
+			answer= Math.max(answer, rt-lt+1);
 		}
-		/* // 내가 푼 풀이 (마무리처리가 제대로 되지 않은것 같다.)
-		int first=0;
-		int sum=arr[0];
-		int p=0;
-		while(p<n) {
+		
 
-			if(sum==m) {
-				answer++;
-				if(p<n)sum+=+arr[++p];
-			}
-			else if(sum>m) {
-				sum = sum - arr[first++];
-			}
-			else {
-				if(p<n)sum+=+arr[++p];
-			}
-
-		}
-		*/
+		
 		return answer;
 		
 	}
