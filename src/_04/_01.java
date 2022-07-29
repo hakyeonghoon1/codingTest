@@ -41,9 +41,7 @@ public class _01 {
 		int n = kb.nextInt();
 		String m = kb.next();
 		
-		
 		System.out.print(T.solution(n,m));
-		
 	
 	} 
 	
