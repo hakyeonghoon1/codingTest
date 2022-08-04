@@ -27,7 +27,6 @@ public class _05 {
 
 		String str= kb.next();
 		
-		
 		System.out.print(T.solution(str));
 	
 	} 

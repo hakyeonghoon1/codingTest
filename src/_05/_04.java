@@ -14,8 +14,8 @@ public class _04 {
 				stack.push(x-48);
 			}
 			else {
-				int lt = stack.pop();
 				int rt = stack.pop();
+				int lt = stack.pop();
 				if(x=='+') stack.push(lt+rt);
 				else if(x=='-') stack.push(lt-rt);
 				else if(x=='*') stack.push(lt*rt);
