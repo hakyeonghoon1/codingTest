@@ -37,7 +37,7 @@ public class _06 {
 		int n= kb.nextInt();
 		int k= kb.nextInt();
 
-		System.out.print(T.solution(k,n));
+		System.out.print(T.solution(n,k));
 	
 	} 
 	
