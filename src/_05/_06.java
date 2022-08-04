@@ -13,7 +13,7 @@ public class _06 {
 		 * 	queue.poll(x)	:	x 값을 꺼내준다.
 		 * 	queue.peek()	:	제일 앞에있는 값을 확인만한다.
 		 * 	queue.size()	:	크기화인
-		 * 	queue.contains(x):	포함여	
+		 * 	queue.contains(x):	포함여부	
 		 */
 		
 		Queue<Integer> Q = new LinkedList<>();
