@@ -6,7 +6,7 @@ public class _03 {
 
 	public int[] solution(int n, int[] arr) {
 		/**
-		 * 	선택정렬
+		 * 	삽입정렬
 		 * 	
 		 */
 		for(int i=1;i<n;i++) {
