@@ -41,8 +41,6 @@ public class _04 {
 		for(int x: T.solution(s,n,arr)) {
 			System.out.print(x+" ");
 		}
-		
-	
 	} 
 	
 }
