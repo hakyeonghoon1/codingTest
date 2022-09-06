@@ -16,6 +16,7 @@ public class _14 {
 	static ArrayList<ArrayList<Integer>> graph;
 	static int[] ch, dis;
 	public void BFS(int v) {
+		
 		/**
 		 * 	그래프 최단거리 (BFS)
 		 */
